@@ -1,12 +1,11 @@
 package com.gestionapprovisionnements.spring_security1.controller;
 
-import com.gestionapprovisionnements.spring_security1.dto.AuthResponse;
-import com.gestionapprovisionnements.spring_security1.dto.LoginRequest;
-import com.gestionapprovisionnements.spring_security1.dto.RegisterRequest;
+import com.gestionapprovisionnements.spring_security1.dto.response.AuthResponse;
+import com.gestionapprovisionnements.spring_security1.dto.request.LoginRequest;
+import com.gestionapprovisionnements.spring_security1.dto.request.RegisterRequest;
 import com.gestionapprovisionnements.spring_security1.service.AuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

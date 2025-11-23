@@ -1,4 +1,4 @@
-package com.gestionapprovisionnements.spring_security1.dto;
+package com.gestionapprovisionnements.spring_security1.dto.request;
 
 import com.gestionapprovisionnements.spring_security1.entity.enums.Role;
 import lombok.Data;

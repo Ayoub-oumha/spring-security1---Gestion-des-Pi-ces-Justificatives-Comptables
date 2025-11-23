@@ -1,4 +1,4 @@
-package com.gestionapprovisionnements.spring_security1.dto;
+package com.gestionapprovisionnements.spring_security1.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

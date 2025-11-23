@@ -1,8 +1,8 @@
 package com.gestionapprovisionnements.spring_security1.service;
 
-import com.gestionapprovisionnements.spring_security1.dto.AuthResponse;
-import com.gestionapprovisionnements.spring_security1.dto.LoginRequest;
-import com.gestionapprovisionnements.spring_security1.dto.RegisterRequest;
+import com.gestionapprovisionnements.spring_security1.dto.response.AuthResponse;
+import com.gestionapprovisionnements.spring_security1.dto.request.LoginRequest;
+import com.gestionapprovisionnements.spring_security1.dto.request.RegisterRequest;
 import com.gestionapprovisionnements.spring_security1.entity.User;
 import com.gestionapprovisionnements.spring_security1.entity.enums.UserStatus;
 import com.gestionapprovisionnements.spring_security1.repository.UserRepository;
