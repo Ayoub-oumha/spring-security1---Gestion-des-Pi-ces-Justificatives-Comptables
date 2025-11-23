@@ -3,6 +3,7 @@ package com.gestionapprovisionnements.spring_security1.entity;
 import com.gestionapprovisionnements.spring_security1.entity.enums.DocumnetStatut;
 import com.gestionapprovisionnements.spring_security1.entity.enums.TypePiece;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 import java.time.LocalDateTime;
 
@@ -44,10 +45,11 @@ public class Document {
 
     @ManyToOne
     @JoinColumn(name = "societe_id")
-    private Societe societe;
+    private Societe societe_id;
 
     private LocalDateTime dateCreation = LocalDateTime.now();
     private LocalDateTime dateModification = LocalDateTime.now();
+
 
 
 }
